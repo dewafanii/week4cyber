@@ -1,9 +1,13 @@
+version: '3.8'
+
 services:
   my-app:
     build:
       context: .
       args:
-        STUDENT_NAME: "Agus Setiawan"
-        STUDENT_NIM: "00000012345"
+        STUDENT_NAME: "Reinaldy thendean"
+        STUDENT_NIM: "00000077022"
     ports:
-      # TODO
+      - "80:3000"
+
+
