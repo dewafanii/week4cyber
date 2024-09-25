@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+        server: {
+    host: '0.0.0.0', // default: localhost
+    port: 3000
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
@@ -12,3 +17,5 @@ export default defineNuxtConfig({
     },
   },
 })
+
+
